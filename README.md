@@ -2,6 +2,10 @@
 
 A public Noir library repo containing a specific useful Noir functions we've implemented and we're using in our apps: __Proof of Proper Secret__.
 
+## Example
+
+An example of how to use the Proof of Proper Secret function `proof_of_proper_secret::check_secret_is_proper` is available in `./example/`.
+
 ## Using the library
 
 1. Add the library to your Noir project dependencies in the `Nargo.toml` file.
@@ -13,7 +17,7 @@ proof_of_proper_secret = {tag = "v1.0.0", git = "https://github.com/fruity-labs/
 
 2. Import the library and function into your Noir code.
 
-Example:
+Partial example (for a fully exhaustive one, see in `./example/`):
 ```rust
 use dep::std;
 use dep::proof_of_proper_secret;
